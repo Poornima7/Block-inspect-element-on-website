@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
-	/* use of function keys "f12" key on the browser
+/* use of function keys "f12" key on the browser
 
 This can be blocked using javascript eventner.*/
 
@@ -43,8 +36,4 @@ This can be blocked using javascript eventner.*/
          Your body content
    </body>
 
-
-
-</body>
-</html>
 
