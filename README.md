@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
-	/* use of function keys "f12" key on the browser
-
-This can be blocked using javascript eventner.*/
+##use of function keys "f12" key on the browser This can be blocked using javascript eventner.
 
 
 <script >
@@ -16,35 +7,24 @@ This can be blocked using javascript eventner.*/
        return false;
       }
     });
-
-  </script> 
-
+</script> 
 
 
- /* Use of Right click
- You can block this using javascript or with just your html */
+##Use of Right click You can block this using javascript or with just your html 
 
- <html oncontextmenu="return false">
- </html>
+  <html oncontextmenu="return false">
+  </html>
 
  (or)
 
  <script>
     $(document).bind("contextmenu",function(e) { 
        e.preventDefault();
- 
     });
   </script>
 
-
-  /* Use of other shortcuts involving Ctrl keys */
+## Use of other shortcuts involving Ctrl keys 
 
    <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
          Your body content
    </body>
-
-
-
-</body>
-</html>
-
